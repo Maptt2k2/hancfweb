@@ -1,0 +1,129 @@
+.user-management {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.user-management h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    text-align: right;
+    cursor: pointer;
+}
+
+.actions button {
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.add-user-button {
+    background-color: #28a745;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-user-button:hover{
+    background-color: #218838;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: #333;
+    margin-top: 10px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.modal-content h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.modal-content form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.modal-content form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.modal-content form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.add-user {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.add-user h2 {
+    margin-bottom: 10px;
+}
+
+.close{
+    cursor: pointer;
+}
